@@ -1,0 +1,114 @@
+@font-face {
+    font-family: roboto;
+src: url(/fuentes/Fuentes/Roboto/Roboto-Medium.ttf)
+}
+body{
+    background-color: rgb(158, 158, 158);
+}
+/* Header */
+.logo{
+    margin-left: 5px;
+    width: 20%;
+    height: 130px;
+}
+.carrito{
+    width: 100px;
+    height: 100px;
+
+}
+.nav{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #1A237E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.contacto{
+    margin-right: 22px;
+}
+.nav .card:hover{
+    background-color: #64B5F6;
+}
+
+/* section quienes somos */
+    /* div contenedor de imagen de sucursal */
+    .divimagen{
+        background-color: #7192ad;
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 15px;
+    }
+    /* imagen de la sucursal (tamaños) */
+        .imagenSucursal{
+            border-radius: 3px;
+            width: 80%;
+            height: 20%;
+        }
+    /* contenedor de textos (historia de supermercado) */
+        .container{
+            margin-top: 15px;
+            display: flex;
+            justify-content: space-around;
+            text-align: justify;
+            background-color: #b0b5ee;
+        }
+        /* contenedor Texto de Historia */
+            .historia{
+                width: 45%;
+            }
+            /* propiedades de texto */
+                .historia h1{
+                    text-align: center;
+                    font-family: sans-serif;
+                    width: 25%;
+                    color: black;
+                    font-size: 35px;
+                    border-bottom: 2px solid #1A237E ;
+                }
+                /* todos los span de historia para palabras en negrita */
+                .historia span{
+                    font-weight: bold;
+                }
+                /* parrafos de historia */
+                .historia p{
+                    font-size: 18px;
+                    font-family: roboto;
+                    font-weight: 400;
+                }
+        /* contenedor Texto sobre Multi Ahorro */
+            .sobreMultiAhorro{
+                width: 45%;
+            }
+            /* propiedades de texto */
+                .sobreMultiAhorro h1{
+                    text-align: center;
+                    font-family: sans-serif;
+                    width: 55%;
+                    color: black;
+                    font-size: 35px;
+                    border-bottom: 2px solid #1A237E;
+                }
+                /* todos los span de sobre Multi Ahorro para palabras en negrita */
+                span{
+                    font-weight: bold;
+                }
+                /* parrafos de sobre multi ahorro */
+                    .sobreMultiAhorro p{
+                            font-size: 18px;
+                            font-family: roboto;
+                            font-weight: 400;
+                        } 

@@ -1,0 +1,150 @@
+/* color de fondo de pagina */
+body{
+    background-color: rgb(158, 158, 158);
+}
+/* encabezado(header) */
+    /* imagen logo supermercado */
+        .logo{
+            margin-left: 5px;
+            width: 20%;
+            height: 130px;
+        }
+    /* imagen carrito Nav*/
+        .carrito{
+            width: 100px;
+            height: 100px;
+        }
+    /* nav (enlaces de Navegación ) */
+        .nav{
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 0;
+            width: 100%;
+            height: 150px;
+            background-color: #1A237E;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+        }
+    /* estilos de los enlaces (a) */
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    /* apartado Contacto */
+        .contacto{
+            margin-right: 22px;
+        }
+    /* propiedad hover(resaltar botón) */
+        .nav .card:hover{
+            background-color: #64B5F6;
+        }
+/**/
+
+
+/* seccion article(articulos) */
+    /* imagenes de los productos de la primer oferta */
+        .imagen{
+            width: 80px;
+            height: 75px;
+        }
+    /* propiedad hover(agranda la imagen del producto en escala 1.1) */
+        .imagen:hover{
+            transform: scale(1.1);
+        }
+    /* article propiedades fondo */
+        .article{
+            width: 100%;
+            height: 80%;
+            background-color: #b7d6b2;
+        }
+    /* seccion contenedor texto oferta */
+        .container {
+        text-align: center;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        margin-top: 15px;
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        }
+    /* aplica color a 2 cajas de texto solamente */
+        .offer{
+            background-color: #3949ab;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            margin: 10px;
+            }
+    /* only(aplica propiedades a la caja de texto "Exclusivo Online") */
+        .only{
+            font-family: sans-serif;
+            font-weight: bold;
+            color: #000;
+            background-color: #1e88e5;
+            font-size: 30px;
+        }
+    /* descuento(aplica propiedades al texto de la caja "Hasta 50% de descuento") */
+        .descuento{
+            font-size: 20px;
+            color: #FFFFFF;
+            font-family: sans-serif;
+            font-weight: 200;
+        }
+    /* products(aplica propiedades de texto de la caja "En productos seleccionados") */
+        .products{
+            font-size: 20px;
+            color: #FFFFFF;
+            font-family: sans-serif;
+            font-weight: 400;
+            }
+    /* contenedor imagenes productos//propiedades */
+    .containerImages{
+        background-color: #838080;
+        margin: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    /* contenedor padre para mostrar fecha de la oferta e imagen de vacaciones */
+        .contenedorpadre{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        /* div fecha valida de oferta//propiedades*/
+        .valido{
+            width: 25%;
+            height: 10%;
+            border-radius: 3px;
+            background-color: #395a56;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            }
+        /* Propiedades de texto para la caja (Del 17/7 al 25/7) */
+            .valido p{
+                font-size: 30px;
+                color: #000;
+            }
+            .valido p span{
+                font-size: 45px;
+                color: #ffffff;
+            }
+        /* div con imagen dentro de las vacaciones de invierno(animación) */
+        .imagenVacaciones{
+            margin-top: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            width: 400px;
+            height: 200px;
+        }
+/**/
+
