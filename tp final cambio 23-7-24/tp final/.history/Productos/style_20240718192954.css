@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(158, 158, 158);
+}
+/* Header */
+.logo{
+    margin-left: 5px;
+    width: 20%;
+    height: 130px;
+}
+.carrito{
+    width: 100px;
+    height: 100px;
+
+}
+.nav{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #1A237E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.contacto{
+    margin-right: 22px;
+}
+.nav .card:hover{
+    background-color: #64B5F6;
+}
+/* Seccion Body */
+.seccion{
+    display: flex;
+}
+    .contenedorProductos{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: blue;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .article{
+        width: 10%;
+        height: 200px;
+        background-color: rgb(130, 160, 187);
+    }
+    .article img{
+        width: 100px;
+        height: 100px;
+    }

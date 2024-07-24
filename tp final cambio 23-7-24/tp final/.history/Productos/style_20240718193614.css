@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(158, 158, 158);
+}
+/* Header */
+.logo{
+    margin-left: 5px;
+    width: 20%;
+    height: 130px;
+}
+.carrito{
+    width: 100px;
+    height: 100px;
+
+}
+.nav{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #1A237E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.contacto{
+    margin-right: 22px;
+}
+.nav .card:hover{
+    background-color: #64B5F6;
+}
+/* Seccion Body */
+section h1{
+    width: 30%;
+    color: black;
+    font-size: 40px;
+    border-bottom: 2px solid #1A237E;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+}

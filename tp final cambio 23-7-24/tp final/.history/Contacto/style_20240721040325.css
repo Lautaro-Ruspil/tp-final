@@ -1,0 +1,150 @@
+/* color de fondo de pagina */
+body{
+    background: linear-gradient(to left, #8d93d6 ,#252c81, #000);
+}
+/* encabezado(header) */
+    /* imagen logo supermercado */
+        .logo{
+            margin-left: 5px;
+            width: 20%;
+            height: 130px;
+        }
+    /* imagen carrito Nav*/
+        .carrito{
+            width: 100px;
+            height: 100px;
+        }
+    /* nav (enlaces de Navegación ) */
+        .nav{
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 0;
+            width: 100%;
+            height: 150px;
+            background-color: #1A237E;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+        }
+    /* estilos de los enlaces (a) */
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    /* apartado Contacto */
+        .contacto{
+            margin-right: 22px;
+        }
+    /* propiedad hover(resaltar botón) */
+        .nav .card:hover{
+            background-color: #64B5F6;
+        }
+/*Seccion datos y forms*/
+        /* contenedor Padre */        
+            .contenedor{
+                margin: 0 auto;
+                background-color: #FFFFFF;
+                border: 1px solid #dddddd;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                width: 80%;
+                height: auto;
+            }
+        /* Datos de Supermercado(Atencion al cliente) */
+            /* titulo 1(Atencion al cliente) */
+            .title{
+                margin: 0 auto;
+                text-align: center;
+                width: 60%;
+                padding: 20px;
+                background-color: #252c81;
+                color: #000;
+                font-size: 40px;
+                font-family: sans-serif;
+            }
+            .subTitle{
+                margin: 0 auto;
+                text-align: center;
+                width: 50%;
+                padding: 10px;
+                background-color: #1A237E;
+                color: #000;
+                font-size: 30px;
+                align-content: center;
+                font-family: sans-serif;
+            }
+            .divText{
+                display: flex;
+                gap: 10px;
+            }
+            .infoMarket{
+                background-color: #00747c;
+                width: 50%;
+                padding: 25px;
+                margin: 20px 0 20px 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-content: center;
+                gap: 150px;
+            }
+            .infoMarket>li{
+                background-color: #252c81;
+                border-radius: 5px;
+                padding: 10px;
+                list-style: none;
+                color: #000;
+                font-size: 25px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .infoMarket>li>img{
+                width: 50px;
+                height: 50px;
+            }
+
+
+    /* Forms */
+    .contactForm{
+        margin: 0 auto;
+        padding: 15px;
+        width: 50%;
+        background-color: #1A237E;
+        display: flex;
+        flex-direction: column;
+    }
+    .form{
+        margin-bottom: 10px;
+    }
+    .form>label{
+        display: flex;
+        align-items: center;
+        background-color: #f9f9f9;
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+        padding: 10px;
+    }
+    .form .icon{
+        margin-right: 10px;
+        color: #FFFFFF;
+    }
+    .form input, .form .textarea{
+        border: none;
+        outline: none;
+        flex-grow: 1;
+        font-size: 16px;
+        background-color: transparent;
+    }
+
+    span{
+        background-color: #ffffff;
+    }
+    .form>label:hover{
+        background-color: #dfdfdf;
+    }
+
+    .form .textarea{
+        resize: none;
+        height: 100px;
+    }

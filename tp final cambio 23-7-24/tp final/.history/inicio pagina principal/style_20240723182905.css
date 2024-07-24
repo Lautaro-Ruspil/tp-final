@@ -1,0 +1,103 @@
+/* color de fondo de pagina */
+body{
+    background: linear-gradient(to left, #8d93d6 ,#252c81, #000);
+}
+/* Header */
+.logo{
+    margin-left: 5px;
+    width: 20%;
+    height: 130px;
+}
+.carrito{
+    width: 100px;
+    height: 100px;
+
+}
+.nav{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 150px;
+    background-color: #1A237E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.contacto{
+    margin-right: 22px;
+}
+.nav .card:hover{
+    background-color: #64B5F6;
+}
+
+/* seccion principal ofertas y descuentos */
+        .container-title{
+            width: 25%;
+            height: auto;
+            padding: 10px;
+            color: #000;
+            font-size: 35px;
+            background-color: #597cc7;
+            border-top: 2px solid #1A237E;
+        }
+        .container padre{
+            margin-top: 15px;
+            background-color: rgb(190, 219, 245);
+            display: flex;
+            justify-content: space-evenly;
+            height: auto;
+        }
+        /* Ofertas */
+        .container-item{
+            background-color: #597cc7;
+            text-align: center;
+            height: auto;
+            width: auto;
+            margin: 15px;
+            border: 2px solid #252c81;
+        }
+        /* precio actual con descuento incluido */
+            .container-item>p , .descuento{
+                color: rgb(0, 22, 70);
+                font-size: 25px;
+                font-family: poppins;
+            }
+        /* Precio sin Descuento (tachado) */
+        .descuento{
+            text-decoration: line-through;
+        }
+
+        /* span con el % de descuento */
+            /* fuente de letra descuento */
+            @font-face {
+                font-family: poppins;
+                src: url(../fuentes/Fuentes/poppins/Poppins-SemiBold.ttf);
+            }
+            span{
+                font-size: 20px;
+                padding: 10px;
+                background-color: rgb(255, 255, 255);
+                color: red;
+                font-family: poppins;
+                border: 1px solid red;
+                border-radius: 2px;
+
+            }
+            /* descripcion producto */
+            .container-item>p.descripcion{
+                color: rgb(37, 37, 37);
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 20px;
+            }
+
+
+
+
+

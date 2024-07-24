@@ -1,0 +1,170 @@
+/* color de fondo de pagina */
+body{
+    background: linear-gradient(to left, #8d93d6 ,#252c81, #000);
+}
+/* encabezado(header) */
+    /* imagen logo supermercado */
+        .logo{
+            margin-left: 5px;
+            width: 20%;
+            height: 130px;
+        }
+    /* imagen carrito Nav*/
+        .carrito{
+            width: 100px;
+            height: 100px;
+        }
+    /* nav (enlaces de Navegación ) */
+        .nav{
+            font-size: 30px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 0;
+            width: 100%;
+            height: 150px;
+            background-color: #1A237E;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            list-style: none;
+        }
+    /* estilos de los enlaces (a) */
+        a{
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+    /* apartado Contacto */
+        .contacto{
+            margin-right: 22px;
+        }
+    /* propiedad hover(resaltar botón) */
+        .nav .card:hover{
+            background-color: #64B5F6;
+        }
+/*Seccion datos y forms*/
+        /* contenedor Padre */        
+            .contenedor{
+                margin: 0 auto;
+                background-color: #0044ff;
+                border: 1px solid #dddddd;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                width: 80%;
+                height: auto;
+            }
+        /* Datos de Supermercado(Atencion al cliente) */
+            /* titulo 1(Atencion al cliente) */
+                .title{
+                    margin: 0 auto;
+                    text-align: center;
+                    width: 60%;
+                    padding: 20px;
+                    background-color: #c1c6f8;
+                    color: #000;
+                    font-size: 40px;
+                    font-family: sans-serif;
+                }
+            /* subtitulo(Contactanos) */
+                .subTitle{
+                    margin: 0 auto;
+                    text-align: center;
+                    width: 50%;
+                    padding: 10px;
+                    background-color: #c1c6f8;
+                    color: #000;
+                    font-size: 30px;
+                    align-content: center;
+                    font-family: sans-serif;
+                }
+            /* contenedor de titulos(propiedades de separación) */
+                .divText{
+                    display: flex;
+                    gap: 10px;
+                }
+            /* Div padre contenedor de datos de supermercado */
+                .infoMarket{
+                    background-color: #252c81;
+                    padding: 25px;
+                    margin: 20px 0 20px 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    border-radius: 5px;
+                    gap: 150px;
+                }
+            /* Datos de Supermercado */
+                .infoMarket>li{
+                    background-color: #c1c6f8;
+                    padding: 10px;
+                    list-style: none;
+                    color: #000;
+                    font-size: 25px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+            /* logos de Telefono y Correo (Atencion al cliente) */
+                .infoMarket>li>img{
+                    width: 50px;
+                    height: 50px;
+                }
+
+
+        /* Forms */
+                /* Estilos para el formulario */
+                    .contactForm{
+                        margin: 0 auto;
+                        padding: 15px;
+                        width: 50%;
+                        background-color: #1A237E;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                /* Estilo para cada grupo de campos del form(inputs) */
+                    .form{
+                        margin-bottom: 10px;
+                    }
+                /* label(estilo para las etiquetas de los campos) */
+                    .form>label{
+                        display: flex;
+                        align-items: center;
+                        background-color: #f9f9f9;
+                        border: 1px solid #dddddd;
+                        border-radius: 4px;
+                        padding: 10px;
+                    }
+                /* (estilos para los iconos) */
+                    .form .icon{
+                        margin-right: 10px;
+                        color: #FFFFFF;
+                    }
+                    span{
+                        background-color: #ffffff;
+                    }
+                /* Estilos para los inputs y area de texto(texTarea) */
+                    .form input, .form .textarea{
+                        border: none;
+                        outline: none;
+                        /* flex grow permite que el imput crezca para para llenar el espacio                disponible en el contenedor */
+                        flex-grow: 1;
+                        font-size: 16px;
+                        background-color: transparent;
+                    }
+                /* al pasar el cursor por las etiquetas de los campos cambia el color de fondo */
+                    .form>label:hover{
+                        background-color: #dfdfdf;
+                    }
+                /* estilos especificos para el area de texto */
+                    .form .textarea{
+                        resize: none;
+                        height: 100px;
+                    }
+                /* Estilos para el boton de envio */
+                    .btn{
+                        background-color: #ffb400;
+                        color: white;
+                        border: none;
+                        border-radius: 4px;
+                        padding: 10px 20px;
+                        font-size: 16px;
+                        cursor: pointer;
+                        transition: background-color 0.3s;
+                    }

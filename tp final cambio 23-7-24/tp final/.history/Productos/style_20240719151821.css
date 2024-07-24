@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(to left, #8d93d6 ,#252c81, #000);
+}
+/* Header */
+.logo{
+    margin-left: 5px;
+    width: 20%;
+    height: 130px;
+}
+.carrito{
+    width: 100px;
+    height: 100px;
+
+}
+.nav{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #1A237E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.contacto{
+    margin-right: 22px;
+}
+.nav .card:hover{
+    background-color: #64B5F6;
+}
+/* Seccion Body */
+section h1{
+    background-color: #4c58dd;
+    width: 30%;
+    color: black;
+    font-size: 40px;
+    border-bottom: 2px solid #636686;
+    padding: 20px 0 10px 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+.contenedorProductos{
+    width: 100%;
+    height: auto;
+    background-color: #4c58dd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.article{
+    text-align: center;
+    margin: 10px;
+    width: 350px;
+    height: 300px;
+    background-color: #ced0e9;
+    padding: 20px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+img:hover{
+}
+p{
+    font-family: arvo;
+}
+@font-face {
+    font-family: arvo;
+    src: url(../fuentes/Fuentes/staticArvo/Arvo-Italic.ttf);
+}
+button{
+    margin: 5px;
+    background-color: #2a37c7;
+    color: white;
+    font-family: sans-serif;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+}
