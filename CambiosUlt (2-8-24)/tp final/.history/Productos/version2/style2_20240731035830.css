@@ -1,0 +1,28 @@
+.containerProducts{
+    width: 100%;
+    height: auto;
+    background-color: #4c58dd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.products{
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 10px;
+    width: 260px;
+    height: 320px;
+    background-color: #ced0e9;
+    padding: 20px;
+}
+
+.products img{
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.products img:hover{
+    transform: scale(1.2);
+}
