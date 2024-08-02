@@ -1,0 +1,259 @@
+body{
+    background: linear-gradient(to left, #8d93d6 ,#252c81, #000);
+}
+/* Header */
+.logo{
+    margin-left: 5px;
+    width: 20%;
+    height: 130px;
+}
+.carrito{
+    width: 100px;
+    height: 100px;
+}
+/* fondo de color de apartado */
+.productos{
+    border-radius: 2px;
+    background-color: #000000;
+    padding: 10px;
+}
+.nav{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #1A237E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.contacto{
+    margin-right: 22px;
+}
+.nav .card:hover{
+    background-color: #64B5F6;
+}
+/* Seccion productos */
+
+/* contenedor titulo y carrito */
+.contenedorPadre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #9cb7ff;
+    align-content: center;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+section>.contenedorPadre>h1{
+    background-color: #9c9c9c;
+    width: 30%;
+    color: rgb(83, 83, 83);
+    font-size: 40px;
+    border-bottom: 2px solid #636686;
+    padding: 20px 0 10px 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+/* contenedor iconos (carrito y contador productos) */
+    .contenedor-iconos{
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        justify-items: center;
+    }
+    /* contenedor de carrito */
+    .contenedorCarrito{
+        margin: 20px 0 20px 0;
+        width: 80px;
+        height: 80px;
+        background-color: #0010bd;
+        align-content: center;
+        text-align: center;
+        border-radius: 50px;
+    }
+    /* imagen carrito */
+    .contenedorCarrito>.carrito{
+        height: 50px;
+        width: 50px;
+        transform: none;
+    }
+    /* contador productos */
+    .contadorProductos{
+        margin: 40px 0 0 10px;
+        text-align: center;
+        align-content: center;
+        border-radius: 20px;
+        width: 40px;
+        height: 40px;
+    }
+    .contadorProductos>span{
+        color: #000000;
+        font-size: 30px;
+    }
+/* div general(Padre) que contiene todos los divs de cada uno de los productos */
+.contenedorProductos{
+    width: 100%;
+    height: auto;
+    background-color: #4c58dd;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* div de cada producto */
+.article{
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 10px;
+    width: 260px;
+    height: 420px;
+    background-color: #ced0e9;
+    padding: 20px;
+}
+/* tamaño imagenes productos */
+img{
+    width: 100px;
+    height: 100px;
+}
+/* zoom imagenes productos */
+img:hover{
+    transform: scale(1.1);
+}
+/* textos */
+p{
+    font-family: arvo;
+}
+/* estilo de fuente para la descripcion (primer hijo "p(span)" dentro del div contenedor de productos) */
+.article>:first-child>span{
+    font-size: 35px;
+}
+/* link fuente para texto */
+@font-face {
+    font-family: arvo;
+    src: url(../fuentes/Fuentes/staticArvo/Arvo-Italic.ttf);
+}
+/* numero precios $$ en negrita */
+span{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: bold;
+}
+/* estilo fuente precios */
+@font-face {
+    font-family: poppins;
+    src: url(../fuentes/Fuentes/poppins/Poppins-Medium.ttf);
+}
+/* propiedades inputs */
+input{
+    color: #000;
+    font-weight: 400;
+    font-family: poppins;
+    margin-top: 10px;
+    width: 30%;
+    height: 10%;
+    border: 2px solid #000752;
+    border-radius: 2px;
+    background-color: rgb(216, 234, 250);
+}
+/* cambio de color al pasar el boton en el input */
+input:hover{
+    background-color: #b7baf8;
+}
+/* estilo de fuente Boton */
+@font-face {
+    font-family: roboto;
+    src: url(../fuentes/Fuentes/Roboto_Slab/static/RobotoSlab-Medium.ttf);
+}
+/* boton Añadir al carrito */
+button{
+    cursor: pointer;
+    margin: 20px 10px 0px 10px;
+    background-color: #0010bd;
+    color: white;
+    font-family: roboto;
+    border: 2px solid black;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 3px;
+    width: 50%;
+}
+/* cambio de color al pasar el mouse x el boton */
+button:hover{
+    background-color: #0026ff;
+}
+/* boton devolver producto */
+    .devolver{
+        cursor: pointer;
+        width: auto;
+        height: auto;
+        background-color: #cc0000;
+    }
+    .devolver:hover{
+        background-color: #ff1515;
+    }
+    /* footer */
+        /* container footer */ 
+        .container-footer{
+            margin-top: 10px;
+            background-color: #a0a0a0;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        /* copyright */
+        .container-footer>.copyright{
+            font-size: 22px;
+            font-family: sans-serif;
+        }
+        /* texto redes sociales */
+        .container-footer>.redes{
+            font-size: 22px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 500;
+        }
+        /* contenedor de iconos de redes sociales */
+        .container-footer>.container-icons{
+            width: 20%;
+            display: flex;
+            margin: 0 auto;
+            gap: 10px;
+            padding: 20px;
+            justify-content: space-evenly;
+            color: #FFFFFF;
+            font-size: 40px;
+        }
+        /* instagram */
+        .fa-instagram{
+            background-color: #ff00f2;
+            padding: 20px;
+            border-radius: 50px;
+        }
+        /* facebook */
+        .fa-facebook{
+            background-color: blue;
+            padding: 20px;
+            border-radius: 50px;
+        }
+        /* youtube */
+        .fa-youtube{
+            background-color: red;
+            padding: 20px;
+            border-radius: 50px;
+        }
+
+        .fab:hover{
+            transform: scale(1.1);
+        }
+
+        section>.resultado{
+            color: #FFFFFF;
+            font-size: 20px;
+            font-family: sans-serif;
+        }
